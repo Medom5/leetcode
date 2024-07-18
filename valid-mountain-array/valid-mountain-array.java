@@ -7,31 +7,28 @@ class Solution {
 
         boolean mountain = false;
         int counter = 0;
-        for (int i = 0; i < arr.length - 1; i++) {
-            if (arr[i] > arr[i + 1]) {
-                counter++;
-            }
-            if (arr[i]==arr[i+1]) {
-                return false;
-            }
-        }
-        if ( counter == arr.length-1) {
-            return false;
-        }
         for (int i = 1; i < arr.length; i++) {
 
+            if (arr[i] < arr[i - 1]) {
+                counter++;
+            }
+
+            if (arr[i] == arr[i - 1]) {
+                return false;
+            }
 
             if (arr[i] < arr[i - 1]) {
 
                 mountain = true;
             }
 
-            if (mountain && arr[i] > arr[i-1]) {
+            if (mountain && arr[i] > arr[i - 1]) {
                 return false;
             }
 
         }
-        return mountain;
+
+        return counter == (arr.length - 1) ? false : mountain;
 
     }
 
