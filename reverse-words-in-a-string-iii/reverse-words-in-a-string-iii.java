@@ -11,11 +11,10 @@ class Solution {
     reverseWord(arr, i + 1, j - 1);
   }
 
-  public String reverseWords(String s) {
-    int i, j;
+public String reverseWords(String s) {
     char[] arr = s.toCharArray();
     // loop over the array and reverse each word
-    for (i = 0, j = 0; j <= s.length(); j++) {
+    for (int i = 0, j = 0; j <= s.length(); j++) {
       if (j == s.length() || s.charAt(j) == ' ') {
         reverseWord(arr, i, j - 1);
         i = j + 1;
