@@ -1,30 +1,27 @@
 class Solution {
-   public void reverseWord(ArrayList<Character> arr, String s, int i, int j) {
-    if (i > j) {
+   public void reverseWord(char[] arr, String s, int i, int j, int c) {
+    if (i > j)
       return;
-    }
-    arr.add(s.charAt(j));
 
-    reverseWord(arr, s, i, j - 1);
+    arr[c] = s.charAt(j);
+
+    reverseWord(arr, s, i, j - 1, c + 1);
   }
 
   public String reverseWords(String s) {
     int i, j;
-    ArrayList<Character> arr = new ArrayList<>();
+    char[] arr = new char[s.length()];
     // loop over the array and reverse each word
     for (i = 0, j = 0; j <= s.length(); j++) {
       if (j == s.length() || s.charAt(j) == ' ') {
-        reverseWord(arr, s, i, j - 1);
+        reverseWord(arr, s, i, j - 1,i);
         i = j + 1;
         if (j != s.length()) {
-          arr.add(' ');
+          arr[j] = ' ';
         }
       }
     }
-    char[] str = new char[arr.size()];
-    for (i = 0; i < arr.size(); i++)
-      str[i] = arr.get(i);
 
-    return new String(str);
+    return new String(arr);
   }
 }
