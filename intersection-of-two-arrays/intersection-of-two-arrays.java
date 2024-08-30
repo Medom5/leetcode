@@ -5,7 +5,7 @@ class Solution {
       intersection.add(num);
     }
     int index = 0;
-    int[] arr= nums2.length > nums1.length ? new int[nums2.length]: new int [nums1.length]; 
+    int[] arr= nums2.length > nums1.length ? new int[nums1.length]: new int [nums2.length]; 
     for (int e : nums2) {
       if (intersection.contains(e)) {
         arr[index++] = e;
