@@ -1,28 +1,25 @@
 class Solution {
-     public String[] findRestaurant(String[] list1, String[] list2) {
-        int index = 0, sum = 3333;
-        String[] res = list1.length > list2.length ? 
-            new String[list2.length] : new  String[list1.length];
+    public String[] findRestaurant(String[] list1, String[] list2) {
+        int min = 3333;
+        List<String> arr= new ArrayList<>();
         HashMap<String, Integer> l1 = new HashMap<>();
-        HashMap<String, Integer> l2 = new HashMap<>();
 
         for (int i = 0; i < list1.length; i++) {
             l1.put(list1[i], i);
         }
         for (int i = 0; i < list2.length; i++) {
-            l2.put(list2[i], i);
-        }
-
-        for (Map.Entry<String, Integer> entry : l1.entrySet()) {
-            if (l2.containsKey(entry.getKey())) {
-                if (entry.getValue() + l2.get(entry.getKey()) < sum) {
-                    sum = entry.getValue() + l2.get(entry.getKey());
-                    res[index] = entry.getKey();
-                } else if (entry.getValue() + l2.get(entry.getKey()) == sum) {
-                    res[++index] = entry.getKey();
+            String s2=list2[i];
+            if (l1.containsKey(s2)) {
+                int sum=l1.get(s2) + i;
+                if (sum < min) {
+                    min= sum;
+                    arr.clear();
+                    arr.add(s2);
+                } else if (sum  == min) {
+                    arr.add(s2);
                 }
             }
         }
-        return Arrays.copyOf(res, index+1);
+        return arr.toArray(new String[arr.size()]);
     }
 }
