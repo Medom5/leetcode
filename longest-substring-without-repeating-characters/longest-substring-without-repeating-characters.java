@@ -4,12 +4,12 @@ class Solution {
         int len = 0;
         int left = 0, right = 0;
         Set<Character> set = new HashSet<>();
-
-        while( right < s.length()){
-            while(set.contains(s.charAt(right)))
-                set.remove(s.charAt(left++));
+        char[] arr = s.toCharArray();
+        while( right < arr.length){
+            while(set.contains(arr[right]))
+                set.remove(arr[left++]);
             
-            set.add(s.charAt(right));
+            set.add(arr[right]);
             len = right - left + 1 > len ? right - left + 1 : len;                         
             right++;
         }
