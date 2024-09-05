@@ -6,16 +6,12 @@ class Solution {
         Set<Character> set = new HashSet<>();
 
         while( right < s.length()){
-            boolean bool = set.add(s.charAt(right));
-            len = set.size() > len ? set.size() : len;
-            if(!bool){
+            while(set.contains(s.charAt(right))){
+                set.remove(s.charAt(left++));
                 
-                set.clear();
-                left++;
-                right=left;
-                set.add(s.charAt(right));
-
-            }                         
+            }
+            set.add(s.charAt(right));
+            len = set.size() > len ? set.size() : len;                         
             right++;   
            
 
