@@ -14,9 +14,7 @@ class Solution {
         }
        
         for(Map.Entry<Integer, Integer> entry : map.entrySet()){
-            int num = entry.getKey();
-            int frequency = entry.getValue();
-            list.get(frequency).add(num);
+            list.get(entry.getValue()).add(entry.getKey());
         }
         int index=list.size() - 1;
         
