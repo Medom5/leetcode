@@ -14,18 +14,20 @@ class Solution {
         }
        
         for(Map.Entry<Integer, Integer> entry : map.entrySet()){
-             int num = entry.getKey();
+            int num = entry.getKey();
             int frequency = entry.getValue();
             list.get(frequency).add(num);
         }
         int index=list.size() - 1;
         
         for(int i=index; i >= 0; i--){ 
-            if(!list.get(i).isEmpty())
+            List<Integer> l = list.get(i);
+            if(!l.isEmpty())
                 for(int j=0; j < list.get(i).size() && k-- > 0; j++){
-                    arr.add(list.get(i).get(j));
+                    arr.add(l.get(j));
                 } 
         }
+        
         int[] res = new int[arr.size()];
         index=0;
         for(Integer e : arr)
