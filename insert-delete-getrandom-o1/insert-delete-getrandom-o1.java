@@ -34,8 +34,7 @@ class RandomizedSet {
     }
     
     public int getRandom() {
-        int ran = random.nextInt(arr.size());
-        return arr.get(ran);
+        return arr.get(random.nextInt(arr.size()));
     }
 }
 
