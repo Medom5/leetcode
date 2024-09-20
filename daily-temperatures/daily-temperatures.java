@@ -8,9 +8,7 @@ class Solution {
                s.pop();
            }
            
-           if(s.isEmpty())
-               res[i] = 0;
-           else 
+           if(!s.isEmpty())
                 res[i]= s.peek() - i;
            s.push(i);
        }
