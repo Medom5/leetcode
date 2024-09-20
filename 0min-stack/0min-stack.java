@@ -1,7 +1,5 @@
 class MinStack {
-    private Node stack;
     private Node top;
-    private Node prev;
     class Node {
         int data;
         int minVal;
@@ -22,14 +20,12 @@ class MinStack {
     }
 
     public MinStack() {
-        stack = null ;
         top = null;
     }
     
     public void push(int val) {
         if (top == null ) {
-            stack = new Node(val,null,null, val);
-            top = stack;
+            top = new Node(val,null,null, val);
         }
         else {
             Node n = new Node(val,top, null , top.minVal);
