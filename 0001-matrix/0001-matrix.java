@@ -1,7 +1,6 @@
 class Solution {
     public int[][] updateMatrix(int[][] mat) {
         int m = mat.length, n = mat[0].length;
-        int[][] res = new int[m][n];
         int[][] directions = new int[][]{{0,1}, {1,0}, {-1,0}, {0,-1}};
         Queue<int[]> q = new LinkedList<>();
         
