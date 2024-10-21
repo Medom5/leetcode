@@ -1,15 +1,16 @@
 class Solution {
-    public int jump(int[] nums) {
-        int goal = nums.length - 1;
+    public int jump(int[] nums) { 
         int jumps = 0;
+        int last = 0;
+        int farthest = 0;
         
-        for(int i = nums.length - 2; i>=0; i--){
-            for(int j = i; j>=0; j--){
-                if(nums[j] + j >= goal)
-                    i = j;
+        for(int i = 0; i < nums.length - 1; i++){
+            farthest = Math.max(farthest, i + nums[i]);
+            
+            if(i == last){
+                jumps++;
+                last= farthest;
             }
-            goal = i;
-            jumps++;
         }
         return jumps;
     }
