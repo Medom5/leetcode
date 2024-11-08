@@ -4,10 +4,9 @@ class Solution {
         
         for(int i = 0; i < gas.length; i++){
             balance += (gas[i] - cost[i]);
-            if(balance <=0){
+            if(balance <0){
                 balance = 0;
-                if(i!=gas.length-1)
-                    start= i+1;
+                start= i+1;
             }
             totalBalance += (gas[i] - cost[i]);
         }
