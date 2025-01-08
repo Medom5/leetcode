@@ -1,9 +1,14 @@
  class Node {
     int val;
-    Node next;
+    Node prev,next;
     
     public Node(){
-        
+    }
+     
+    public Node(int val, Node prev, Node next){
+        this.val=val;
+        this.prev=prev;
+        this.next=next;
     }
 }
 
@@ -31,15 +36,11 @@ class MyLinkedList {
     
     public void addAtHead(int val) {
         if(size==0)
-        {   list=new Node();
-            list.val=val;
-            list.next=null;
+        {   list=new Node(val,null,null);
             size++;
         }
         else {
-            Node head = new Node();
-            head.val=val;
-            head.next=list;
+            Node head = new Node(val,null,list);
             list=head;
             size++;
         }
@@ -47,18 +48,17 @@ class MyLinkedList {
     
     public void addAtTail(int val) {
         if(size==0){
-            list=new Node();
-            list.val=val;
-            list.next=null;
-        }else{
-        Node cur = list;
-        while(cur.next!=null){
-            cur=cur.next;
+            list=new Node(val,null,null);
         }
-        Node tail = new Node();
-        tail.val = val;
-        cur.next=tail;
-        tail.next=null;}
+        else {
+            Node cur = list;
+
+            while(cur.next!=null)
+                cur=cur.next;
+
+            Node tail = new Node(val,cur,null);
+            cur.next=tail;
+        }
         size++;
     }
     
@@ -69,15 +69,14 @@ class MyLinkedList {
             addAtHead(val);
         
         else{
-        Node cur = list;
-        int i=index;
-        while(i-->1){
-            cur=cur.next;
-        }
-        Node n = new Node();
-        n.val=val;
-        n.next=cur.next;
-        cur.next=n;
+            Node cur = list;
+            int i=index;
+            while(i-->1){
+                cur=cur.next;
+            }
+            Node n = new Node(val,cur,cur.next);
+            if(cur.next != null) cur.next.prev=n;
+            cur.next=n;    
         }
         size++;
         }
@@ -87,13 +86,16 @@ class MyLinkedList {
             return;
         if(index==0){
             list=list.next;
+            if(list != null) list.prev=null;
             }else{
                 Node cur = list;
                 int i=index;
-                while(cur!=null && i-->1){
+                while( i-->1){
                      cur=cur.next;
             }
-            cur.next=cur.next.next;}
+            cur.next=cur.next.next;
+            if(cur.next != null) cur.next.prev=cur;
+        }
         size--;
     }
 }
