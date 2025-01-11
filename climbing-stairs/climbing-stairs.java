@@ -1,17 +1,16 @@
 class Solution {
     public int climbStairs(int n) {
-        return fibHelper(n, new HashMap<Integer, Integer>()) + fibHelper(n-1, new HashMap<Integer, Integer>());
-    }
-    private int fibHelper(int n, Map<Integer, Integer> cache){
         if(n <= 1)
-            return n;
-        if(cache.containsKey(n))
-            return cache.get(n);
+            return 1;
         
-        int result = fibHelper(n-1,cache) + fibHelper(n-2, cache);
+        int one = 1, two = 1;
         
-        cache.put(n, result);
+        for(int i=0; i < n-1; i++){
+            int temp = one + two;
+            two=one;
+            one=temp;
+        }
         
-        return result;
+        return one;
     }
 }
