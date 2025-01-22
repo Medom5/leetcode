@@ -40,4 +40,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
+## Array
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Medom5/leetcode/tree/master/0053-maximum-subarray) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Medom5/leetcode/tree/master/0053-maximum-subarray) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/Medom5/leetcode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
