@@ -55,5 +55,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Database
 |  |
 | ------- |
+| [0570-managers-with-at-least-5-direct-reports](https://github.com/Medom5/leetcode/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Medom5/leetcode/tree/master/2127-employees-whose-manager-left-the-company) |
 <!---LeetCode Topics End-->
