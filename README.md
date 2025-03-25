@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
+| [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
+| [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 ## Array
 |  |
 | ------- |
@@ -58,4 +60,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/Medom5/leetcode/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [2087-confirmation-rate](https://github.com/Medom5/leetcode/tree/master/2087-confirmation-rate) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Medom5/leetcode/tree/master/2127-employees-whose-manager-left-the-company) |
+## Stack
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Design
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
