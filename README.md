@@ -27,11 +27,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
 ## Breadth-First Search
 |  |
@@ -40,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 ## Array
@@ -71,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0098-validate-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 ## Iterator
 |  |
