@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0450-delete-node-in-a-bst](https://github.com/Medom5/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Medom5/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0450-delete-node-in-a-bst](https://github.com/Medom5/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Medom5/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Array
 |  |
 | ------- |
@@ -75,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Medom5/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -82,8 +85,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0450-delete-node-in-a-bst](https://github.com/Medom5/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Medom5/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Iterator
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Medom5/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/Medom5/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
