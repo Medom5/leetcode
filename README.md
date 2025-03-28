@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0450-delete-node-in-a-bst](https://github.com/Medom5/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Depth-First Search
 |  |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0112-path-sum](https://github.com/Medom5/leetcode/tree/master/0112-path-sum) |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0450-delete-node-in-a-bst](https://github.com/Medom5/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Array
 |  |
@@ -78,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Medom5/leetcode/tree/master/0173-binary-search-tree-iterator) |
+| [0450-delete-node-in-a-bst](https://github.com/Medom5/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/Medom5/leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
 ## Iterator
 |  |
