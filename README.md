@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Medom5/leetcode/tree/master/0013-roman-to-integer) |
+| [0128-longest-consecutive-sequence](https://github.com/Medom5/leetcode/tree/master/0128-longest-consecutive-sequence) |
 ## String
 |  |
 | ------- |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Medom5/leetcode/tree/master/0053-maximum-subarray) |
+| [0128-longest-consecutive-sequence](https://github.com/Medom5/leetcode/tree/master/0128-longest-consecutive-sequence) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -102,4 +104,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Medom5/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/Medom5/leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
